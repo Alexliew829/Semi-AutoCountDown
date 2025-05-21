@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook 倒數留言觸發</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; text-align: center; }
+    input { font-size: 1.2em; padding: 0.5em; width: 300px; margin: 1em 0; }
+    button { font-size: 1.2em; padding: 0.5em 2em; }
+    h2 { font-size: 1.5em; margin-bottom: 0.2em; }
+    p { font-size: 1em; color: #555; }
+  </style>
+</head>
+<body>
+  <h2>📣 Facebook 直播倒數留言觸發</h2>
+  <p>請輸入直播貼文的 <b>post_id</b>，點擊按鈕即可開始</p>
+  <input type="text" id="postIdInput" placeholder="請輸入直播貼文 ID" />
+  <br />
+  <button id="submitBtn">開始執行</button>
+  <p id="status"></p>
+  <script src="script.js"></script>
+</body>
+</html>
